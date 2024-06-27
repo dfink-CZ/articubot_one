@@ -1,0 +1,68 @@
+[0.008s] Invoking command in '/home/dominikfink/dev_ws/src/articubot_one/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake /home/dominikfink/dev_ws/src/articubot_one -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dominikfink/dev_ws/src/articubot_one/install/articubot_one
+[0.578s] -- The C compiler identification is GNU 11.4.0
+[1.112s] -- The CXX compiler identification is GNU 11.4.0
+[1.170s] -- Detecting C compiler ABI info
+[1.325s] -- Detecting C compiler ABI info - done
+[1.347s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.347s] -- Detecting C compile features
+[1.361s] -- Detecting C compile features - done
+[1.377s] -- Detecting CXX compiler ABI info
+[1.521s] -- Detecting CXX compiler ABI info - done
+[1.528s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.528s] -- Detecting CXX compile features
+[1.529s] -- Detecting CXX compile features - done
+[1.584s] -- Found ament_cmake: 2.0.5 (/opt/ros/iron/share/ament_cmake/cmake)
+[1.822s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.908s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.111s] -- Found ament_lint_auto: 0.14.3 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[2.356s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.447s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.447s] -- Configured cppcheck include dirs: 
+[2.447s] -- Configured cppcheck exclude dirs and/or files: 
+[2.464s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.464s] -- Configured cpplint exclude dirs and/or files: 
+[2.467s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.467s] -- Configured 'flake8' exclude dirs and/or files: 
+[2.471s] -- Added test 'lint_cmake' to check CMake code style
+[2.473s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.488s] -- Added test 'uncrustify' to check C / C++ code style
+[2.488s] -- Configured uncrustify additional arguments: 
+[2.491s] -- Added test 'xmllint' to check XML markup files
+[2.512s] -- Configuring done
+[2.516s] -- Generating done
+[2.517s] -- Build files have been written to: /home/dominikfink/dev_ws/src/articubot_one/build/articubot_one
+[2.522s] Invoked command in '/home/dominikfink/dev_ws/src/articubot_one/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake /home/dominikfink/dev_ws/src/articubot_one -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dominikfink/dev_ws/src/articubot_one/install/articubot_one
+[2.524s] Invoking command in '/home/dominikfink/dev_ws/src/articubot_one/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/dominikfink/dev_ws/src/articubot_one/build/articubot_one -- -j8 -l8
+[2.565s] Invoked command in '/home/dominikfink/dev_ws/src/articubot_one/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/dominikfink/dev_ws/src/articubot_one/build/articubot_one -- -j8 -l8
+[2.600s] Invoking command in '/home/dominikfink/dev_ws/src/articubot_one/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/dominikfink/dev_ws/src/articubot_one/build/articubot_one
+[2.608s] -- Install configuration: ""
+[2.608s] -- Execute custom install script
+[2.609s] -- Symlinking: /home/dominikfink/dev_ws/src/articubot_one/install/articubot_one/share/articubot_one/config/drive_bot.rviz
+[2.618s] -- Symlinking: /home/dominikfink/dev_ws/src/articubot_one/install/articubot_one/share/articubot_one/config/empty.yaml
+[2.628s] -- Symlinking: /home/dominikfink/dev_ws/src/articubot_one/install/articubot_one/share/articubot_one/config/view_bot.rviz
+[2.637s] -- Symlinking: /home/dominikfink/dev_ws/src/articubot_one/install/articubot_one/share/articubot_one/description/camera.xacro
+[2.646s] -- Symlinking: /home/dominikfink/dev_ws/src/articubot_one/install/articubot_one/share/articubot_one/description/gazebo_control.xacro
+[2.655s] -- Symlinking: /home/dominikfink/dev_ws/src/articubot_one/install/articubot_one/share/articubot_one/description/inertial_macros.xacro
+[2.663s] -- Symlinking: /home/dominikfink/dev_ws/src/articubot_one/install/articubot_one/share/articubot_one/description/lidar.xacro
+[2.672s] -- Symlinking: /home/dominikfink/dev_ws/src/articubot_one/install/articubot_one/share/articubot_one/description/robot.urdf.xacro
+[2.681s] -- Symlinking: /home/dominikfink/dev_ws/src/articubot_one/install/articubot_one/share/articubot_one/description/robot_core.xacro
+[2.689s] -- Symlinking: /home/dominikfink/dev_ws/src/articubot_one/install/articubot_one/share/articubot_one/launch/launch_sim.launch.py
+[2.698s] -- Symlinking: /home/dominikfink/dev_ws/src/articubot_one/install/articubot_one/share/articubot_one/launch/rsp.launch.py
+[2.706s] -- Symlinking: /home/dominikfink/dev_ws/src/articubot_one/install/articubot_one/share/articubot_one/worlds/empty.world
+[2.715s] -- Symlinking: /home/dominikfink/dev_ws/src/articubot_one/install/articubot_one/share/articubot_one/worlds/obstacles.world
+[2.724s] -- Symlinking: /home/dominikfink/dev_ws/src/articubot_one/install/articubot_one/share/ament_index/resource_index/package_run_dependencies/articubot_one
+[2.732s] -- Symlinking: /home/dominikfink/dev_ws/src/articubot_one/install/articubot_one/share/ament_index/resource_index/parent_prefix_path/articubot_one
+[2.741s] -- Symlinking: /home/dominikfink/dev_ws/src/articubot_one/install/articubot_one/share/articubot_one/environment/ament_prefix_path.sh
+[2.750s] -- Symlinking: /home/dominikfink/dev_ws/src/articubot_one/install/articubot_one/share/articubot_one/environment/ament_prefix_path.dsv
+[2.759s] -- Symlinking: /home/dominikfink/dev_ws/src/articubot_one/install/articubot_one/share/articubot_one/environment/path.sh
+[2.768s] -- Symlinking: /home/dominikfink/dev_ws/src/articubot_one/install/articubot_one/share/articubot_one/environment/path.dsv
+[2.777s] -- Symlinking: /home/dominikfink/dev_ws/src/articubot_one/install/articubot_one/share/articubot_one/local_setup.bash
+[2.786s] -- Symlinking: /home/dominikfink/dev_ws/src/articubot_one/install/articubot_one/share/articubot_one/local_setup.sh
+[2.794s] -- Symlinking: /home/dominikfink/dev_ws/src/articubot_one/install/articubot_one/share/articubot_one/local_setup.zsh
+[2.803s] -- Symlinking: /home/dominikfink/dev_ws/src/articubot_one/install/articubot_one/share/articubot_one/local_setup.dsv
+[2.811s] -- Symlinking: /home/dominikfink/dev_ws/src/articubot_one/install/articubot_one/share/articubot_one/package.dsv
+[2.820s] -- Symlinking: /home/dominikfink/dev_ws/src/articubot_one/install/articubot_one/share/ament_index/resource_index/packages/articubot_one
+[2.829s] -- Symlinking: /home/dominikfink/dev_ws/src/articubot_one/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig.cmake
+[2.838s] -- Symlinking: /home/dominikfink/dev_ws/src/articubot_one/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig-version.cmake
+[2.847s] -- Symlinking: /home/dominikfink/dev_ws/src/articubot_one/install/articubot_one/share/articubot_one/package.xml
+[2.857s] Invoked command in '/home/dominikfink/dev_ws/src/articubot_one/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/dominikfink/dev_ws/src/articubot_one/build/articubot_one
