@@ -38,10 +38,12 @@ def generate_launch_description():
                         output='screen')
 
 
+    
 
     # Launch them all!
     return LaunchDescription([
         rsp,
         gazebo,
         spawn_entity,
+        
     ])
