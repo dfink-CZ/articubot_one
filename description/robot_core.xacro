@@ -23,6 +23,10 @@
     <material name="red">
         <color rgba="1 0 0 1" />
     </material>
+
+    <material name="yellow">
+        <color rgba="1 1 0 1" />
+    </material>
                 
     <!-- BASE LINK -->
 
@@ -44,7 +48,7 @@
             <geometry>
                 <box size="0.3 0.3 0.15"/>
             </geometry>
-            <material name="white"/>
+            <material name="yellow"/>
         </visual>
         <collision>
             <origin xyz="0.15 0 0.075"/>
@@ -58,7 +62,7 @@
     </link>
 
     <gazebo reference="chassis">
-        <material>Gazebo/White</material>
+        <material>Gazebo/Yellow</material>
     </gazebo>
 
     <!-- LEFT WHEEL LINK -->
