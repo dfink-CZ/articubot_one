@@ -1,0 +1,4 @@
+Invoking command in '/home/dominikfink/dev_ws/build/articubot_one': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/dominikfink/dev_ws/build/articubot_one -- -j16 -l16
+Invoked command in '/home/dominikfink/dev_ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/dominikfink/dev_ws/build/articubot_one -- -j16 -l16
+Invoking command in '/home/dominikfink/dev_ws/build/articubot_one': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/dominikfink/dev_ws/build/articubot_one
+Invoked command in '/home/dominikfink/dev_ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/dominikfink/dev_ws/build/articubot_one

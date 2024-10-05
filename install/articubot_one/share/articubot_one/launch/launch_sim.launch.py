@@ -1,1 +1,1 @@
-/home/dominikfink/dev_ws/src/articubot_one/launch/launch_sim.launch.py
+/home/dominikfink/dev_ws/articubot_one/launch/launch_sim.launch.py
