@@ -2,6 +2,8 @@
 /home/dominikfink/dev_ws/install/articubot_one/share/articubot_one/config/empty.yaml
 /home/dominikfink/dev_ws/install/articubot_one/share/articubot_one/config/mapper_params_online_async.yaml
 /home/dominikfink/dev_ws/install/articubot_one/share/articubot_one/config/my_controllers.yaml
+/home/dominikfink/dev_ws/install/articubot_one/share/articubot_one/config/nav2_params.yaml
+/home/dominikfink/dev_ws/install/articubot_one/share/articubot_one/config/twist_mux.yaml
 /home/dominikfink/dev_ws/install/articubot_one/share/articubot_one/config/view_bot.rviz
 /home/dominikfink/dev_ws/install/articubot_one/share/articubot_one/description/camera.xacro
 /home/dominikfink/dev_ws/install/articubot_one/share/articubot_one/description/depth_camera.xacro
@@ -11,7 +13,11 @@
 /home/dominikfink/dev_ws/install/articubot_one/share/articubot_one/description/robot.urdf.xacro
 /home/dominikfink/dev_ws/install/articubot_one/share/articubot_one/description/robot_core.xacro
 /home/dominikfink/dev_ws/install/articubot_one/share/articubot_one/description/ros2_control.xacro
+/home/dominikfink/dev_ws/install/articubot_one/share/articubot_one/launch/joystick.launch.py
 /home/dominikfink/dev_ws/install/articubot_one/share/articubot_one/launch/launch_sim.launch.py
+/home/dominikfink/dev_ws/install/articubot_one/share/articubot_one/launch/localization_launch.py
+/home/dominikfink/dev_ws/install/articubot_one/share/articubot_one/launch/navigation_launch.py
+/home/dominikfink/dev_ws/install/articubot_one/share/articubot_one/launch/online_async_launch.py
 /home/dominikfink/dev_ws/install/articubot_one/share/articubot_one/launch/rsp.launch.py
 /home/dominikfink/dev_ws/install/articubot_one/share/articubot_one/worlds/empty.world
 /home/dominikfink/dev_ws/install/articubot_one/share/articubot_one/worlds/moon.world
