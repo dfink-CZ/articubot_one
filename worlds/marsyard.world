@@ -1,3 +1,9 @@
+<!--
+  NOTE: mesh/texture URIs in this world point at /home/dominikfink/.ignition/fuel/...
+  which only resolves on the original author's machine. To use this world on another
+  machine, download the erc_arena model and set GZ_SIM_RESOURCE_PATH or replace the
+  absolute URIs below with package:// paths.
+-->
 <sdf version='1.10'>
   <world name='marsyard'>
     <light name='sun' type='directional'>

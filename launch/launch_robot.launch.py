@@ -43,7 +43,15 @@ def generate_launch_description():
             remappings=[('/cmd_vel_out','/diff_cont/cmd_vel_unstamped')]
         )
 
-
+    # Jazzy's diff_drive_controller only accepts TwistStamped on ~/cmd_vel.
+    # twist_mux outputs Twist on /diff_cont/cmd_vel_unstamped, so we stamp it here
+    # before it reaches the controller. Runs regardless of whether a joystick is attached.
+    twist_stamper = Node(
+            package='twist_stamper',
+            executable='twist_stamper',
+            remappings=[('/cmd_vel_in','/diff_cont/cmd_vel_unstamped'),
+                        ('/cmd_vel_out','/diff_cont/cmd_vel')]
+        )
 
 
     robot_description = Command(['ros2 param get --hide-type /robot_state_publisher robot_description'])
@@ -109,6 +117,7 @@ def generate_launch_description():
         rsp,
         # joystick,
         twist_mux,
+        twist_stamper,
         delayed_controller_manager,
         delayed_diff_drive_spawner,
         delayed_joint_broad_spawner

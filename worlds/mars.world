@@ -1,3 +1,10 @@
+<!--
+  NOTE: mesh/texture URIs in this world point at /home/dominikfink/.ignition/fuel/...
+  which only resolves on the original author's machine. To use this world on another
+  machine, download the gale_crater_patch_2 model from Gazebo Fuel
+  (app.gazebosim.org/jasmeetsingh/fuel/models/mars gale crater patch 2) and either
+  replace the absolute URIs below with package:// paths or set GZ_SIM_RESOURCE_PATH.
+-->
 <sdf version='1.10'>
   <world name='default'>
     <light name='sun' type='directional'>
